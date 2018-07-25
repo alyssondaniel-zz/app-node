@@ -14,8 +14,13 @@
     "project",
     "test"
   ],
+  "url": "https://github.com/alyssondaniel/app-node.git",
+  "email": "alyssondaniel@gmail.com",
   "author": "Alysson Daniel Nascimento",
-  "license": "ISC",
+  "license": {
+      "type": "MIT"
+    , "url": "https://www.opensource.org/licenses/mit-license.php"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -27,6 +32,7 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5"
   }
 }
